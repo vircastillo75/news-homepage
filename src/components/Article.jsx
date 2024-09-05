@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 export const Article = ({img, number, title, text}) => {
   return (
@@ -14,3 +14,13 @@ export const Article = ({img, number, title, text}) => {
     </article>
   )
 }
+
+Article.propTypes = {
+  img: PropTypes.string.isRequired,     
+  number: PropTypes.oneOfType([         
+    PropTypes.string,
+    PropTypes.number
+  ]).isRequired,
+  title: PropTypes.string.isRequired,   
+  text: PropTypes.string.isRequired     
+};
