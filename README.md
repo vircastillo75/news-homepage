@@ -6,4 +6,4 @@ El challenge News Homepage de Frontend Mentor consistía en crear una página de
 
 * Diseño responsivo: El desafío incluye un diseño que se adapte tanto a pantallas de escritorio como a dispositivos móviles y tablets. En la vista móvil, el menú de navegación esaccesible a través de un ícono de hamburguesa que despliega las opciones.
 
-Interactividad: En la versión móvil, el menú se despliega y cierra. También se agregó interactividad extra como efectos al hacer hover o clic en las noticias.
+* Interactividad: En la versión móvil, el menú se despliega y cierra. También se agregó interactividad extra como efectos al hacer hover o clic en las noticias.
